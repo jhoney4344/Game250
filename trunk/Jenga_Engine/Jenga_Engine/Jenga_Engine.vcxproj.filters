@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="JEApplication.cpp">
+      <Filter>JEApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="JEMath.cpp">
+      <Filter>JEPhysics\JEMath</Filter>
+    </ClCompile>
+    <ClCompile Include="JECollisionManager.cpp">
+      <Filter>JEPhysics\JECollision</Filter>
+    </ClCompile>
+    <ClCompile Include="JEDebug.cpp">
+      <Filter>JEDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="JEInput.cpp">
+      <Filter>JEInput</Filter>
+    </ClCompile>
+    <ClCompile Include="JEObjectManager.cpp">
+      <Filter>JEObject\JEObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="JESound.cpp">
+      <Filter>JESound</Filter>
+    </ClCompile>
+    <ClCompile Include="JEStateManager.cpp">
+      <Filter>JEState\JEStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="JEStateFactory.cpp">
+      <Filter>JEState\JEStateFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="JESound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="JEFrameTimer.cpp">
+      <Filter>JEFrameTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="JEGraphicsNew.cpp">
+      <Filter>JEGraphics\New</Filter>
+    </ClCompile>
+    <ClCompile Include="JELoadTextureNew.cpp">
+      <Filter>JEGraphics\New</Filter>
+    </ClCompile>
+    <ClCompile Include="JEPipeLine.cpp">
+      <Filter>JEGraphics\New</Filter>
+    </ClCompile>
+    <ClCompile Include="JEOGLMathHelper.cpp">
+      <Filter>JEGraphics\New</Filter>
+    </ClCompile>
+    <ClCompile Include="JECamera.cpp">
+      <Filter>JEGraphics\New</Filter>
+    </ClCompile>
+    <ClCompile Include="JEObjects.cpp">
+      <Filter>JEObject\JEObject</Filter>
+    </ClCompile>
+    <ClCompile Include="JEFrameTimer.cpp">
+      <Filter>JEFrameTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>JEState\JEStates</Filter>
+    </ClCompile>
+    <ClCompile Include="JEBuilder.cpp">
+      <Filter>JEState\JEBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>JEState\JEStates</Filter>
+    </ClCompile>
+    <ClCompile Include="JEObjects.cpp">
+      <Filter>JEObject\JEObject</Filter>
+    </ClCompile>
+    <ClCompile Include="JEShop.cpp">
+      <Filter>JEHUD\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="JENumber.cpp">
+      <Filter>JEHUD\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="JEResource.cpp">
+      <Filter>JEObject\JEObject\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="JEOptionMenu.cpp">
+      <Filter>JEHUD\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="JEShader.cpp">
+      <Filter>JEGraphics\New</Filter>
+    </ClCompile>
+    <ClCompile Include="JELighting.cpp">
+      <Filter>JEGraphics\New</Filter>
+    </ClCompile>
+    <ClCompile Include="JEDayAndNight.cpp">
+      <Filter>DayAndNight</Filter>
+    </ClCompile>
+    <ClCompile Include="State_OpenWorld.cpp">
+      <Filter>JEState\JEStates</Filter>
+    </ClCompile>
+    <ClCompile Include="JEBillboardingShader.cpp">
+      <Filter>JEGraphics\New</Filter>
+    </ClCompile>
+    <ClCompile Include="JEObjectShader.cpp">
+      <Filter>JEGraphics\New</Filter>
+    </ClCompile>
+    <ClCompile Include="JEParticle.cpp">
+      <Filter>JEGraphics\New</Filter>
+    </ClCompile>
+    <ClCompile Include="JEParticleShader.cpp">
+      <Filter>JEGraphics\New</Filter>
+    </ClCompile>
+    <ClCompile Include="JERandomTexture.cpp">
+      <Filter>JEGraphics\New</Filter>
+    </ClCompile>
+    <ClCompile Include="JEPad.cpp">
+      <Filter>JEInput</Filter>
+    </ClCompile>
+    <ClCompile Include="JETileMap.cpp">
+      <Filter>JETileMapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="JECharacter.cpp">
+      <Filter>JEObject\JECharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="JECharacterManager.cpp">
+      <Filter>JEObject\JECharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="JEParts.cpp">
+      <Filter>JEObject\JECharacter\JEParts</Filter>
+    </ClCompile>
+    <ClCompile Include="JESpecPart.cpp">
+      <Filter>JEObject\JECharacter\JEParts</Filter>
+    </ClCompile>
+    <ClCompile Include="JEAniSystem.cpp">
+      <Filter>JEAnimationSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="JEResourceGauge.cpp">
+      <Filter>JEHUD\Resource gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="JEOldParticle.cpp">
+      <Filter>JEGraphics\New</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JEApplication.h">
+      <Filter>JEApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="JEMath.h">
+      <Filter>JEPhysics\JEMath</Filter>
+    </ClInclude>
+    <ClInclude Include="JECollisionManager.h">
+      <Filter>JEPhysics\JECollision</Filter>
+    </ClInclude>
+    <ClInclude Include="JEDebug.h">
+      <Filter>JEDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="JEInput.h">
+      <Filter>JEInput</Filter>
+    </ClInclude>
+    <ClInclude Include="JEObjectManager.h">
+      <Filter>JEObject\JEObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="JESound.h">
+      <Filter>JESound</Filter>
+    </ClInclude>
+    <ClInclude Include="JEStateManager.h">
+      <Filter>JEState\JEStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="JEStateFactory.h">
+      <Filter>JEState\JEStateFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="JEStates.h">
+      <Filter>JEState\JEStates</Filter>
+    </ClInclude>
+    <ClInclude Include="JEStateTypes.h">
+      <Filter>JEState\JEStates</Filter>
+    </ClInclude>
+    <ClInclude Include="JEGraphicsNew.h">
+      <Filter>JEGraphics\New</Filter>
+    </ClInclude>
+    <ClInclude Include="JELoadTextureNew.h">
+      <Filter>JEGraphics\New</Filter>
+    </ClInclude>
+    <ClInclude Include="JEPipeLine.h">
+      <Filter>JEGraphics\New</Filter>
+    </ClInclude>
+    <ClInclude Include="JEOGLMathHelper.h">
+      <Filter>JEGraphics\New</Filter>
+    </ClInclude>
+    <ClInclude Include="JECamera.h">
+      <Filter>JEGraphics\New</Filter>
+    </ClInclude>
+    <ClInclude Include="JEBuilder.h">
+      <Filter>JEState\JEBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="JEObjectTypes.h">
+      <Filter>JEObject\JEObject</Filter>
+    </ClInclude>
+    <ClInclude Include="JEObjects.h">
+      <Filter>JEObject\JEObject</Filter>
+    </ClInclude>
+    <ClInclude Include="JEFrameTimer.h">
+      <Filter>JEFrameTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="JESTL.h" />
+    <ClInclude Include="JEGameData.h" />
+    <ClInclude Include="JETileMap.h">
+      <Filter>JETileMapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="JEShop.h">
+      <Filter>JEHUD\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="JEHUD.h">
+      <Filter>JEHUD\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="JEResource.h">
+      <Filter>JEObject\JEObject\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="JEOptionMenu.h">
+      <Filter>JEHUD\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="JEShader.h">
+      <Filter>JEGraphics\New</Filter>
+    </ClInclude>
+    <ClInclude Include="JELighting.h">
+      <Filter>JEGraphics\New</Filter>
+    </ClInclude>
+    <ClInclude Include="JEDayAndNight.h">
+      <Filter>DayAndNight</Filter>
+    </ClInclude>
+    <ClInclude Include="JEBillboardingShader.h">
+      <Filter>JEGraphics\New</Filter>
+    </ClInclude>
+    <ClInclude Include="JEObjectShader.h">
+      <Filter>JEGraphics\New</Filter>
+    </ClInclude>
+    <ClInclude Include="JEParticle.h">
+      <Filter>JEGraphics\New</Filter>
+    </ClInclude>
+    <ClInclude Include="JEParticleShader.h">
+      <Filter>JEGraphics\New</Filter>
+    </ClInclude>
+    <ClInclude Include="JERandomTexture.h">
+      <Filter>JEGraphics\New</Filter>
+    </ClInclude>
+    <ClInclude Include="JEPad.h">
+      <Filter>JEInput</Filter>
+    </ClInclude>
+    <ClInclude Include="JETileMapStructs.h">
+      <Filter>JETileMapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="JEBasePart.h">
+      <Filter>JEObject\JECharacter\JEParts</Filter>
+    </ClInclude>
+    <ClInclude Include="JESpecPart.h">
+      <Filter>JEObject\JECharacter\JEParts</Filter>
+    </ClInclude>
+    <ClInclude Include="JECharacter.h">
+      <Filter>JEObject\JECharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="JECharacterManager.h">
+      <Filter>JEObject\JECharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="JECharacterType.h">
+      <Filter>JEObject\JECharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="JEParts.h">
+      <Filter>JEObject\JECharacter\JEParts</Filter>
+    </ClInclude>
+    <ClInclude Include="JEAniSystem.h">
+      <Filter>JEAnimationSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="JEAniType.h">
+      <Filter>JEAnimationSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="JEResourceGauge.h">
+      <Filter>JEHUD\Resource gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="JEOldParticle.h">
+      <Filter>JEGraphics\New</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="JEApplication">
+      <UniqueIdentifier>{245406fc-287d-4fea-a1e5-f7f9cf7ce141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEPhysics">
+      <UniqueIdentifier>{9b5b2471-e486-4f42-b609-cd56fb2c1e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEPhysics\JEMath">
+      <UniqueIdentifier>{343f4645-ff82-44cb-ae09-d6d9970c3f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEPhysics\JECollision">
+      <UniqueIdentifier>{b8e976de-985b-4063-a1c9-70de56c998be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEDebug">
+      <UniqueIdentifier>{6da43c16-444a-4d98-a72e-defa44fcb517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEGraphics">
+      <UniqueIdentifier>{3d3bc84e-aacb-4e91-b2ab-b837ec83231b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEInput">
+      <UniqueIdentifier>{5c03465e-3640-4703-b1ba-e7f6476d7b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEObject">
+      <UniqueIdentifier>{af73b681-7f96-4926-b468-e33b6bc2021e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEObject\JEObjectManager">
+      <UniqueIdentifier>{c95e6132-a0c6-4a80-b1a0-25ae8c256fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JESound">
+      <UniqueIdentifier>{37c19536-b792-4a3b-842f-51d8b745fdd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEState">
+      <UniqueIdentifier>{68cc9a21-1a0f-4d48-b10f-d004241285a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEState\JEStateManager">
+      <UniqueIdentifier>{f6dfea45-d070-4fa3-a4e2-200c2636c4e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEState\JEStateFactory">
+      <UniqueIdentifier>{f74815ab-0a33-4829-99d9-a0e35de19880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEState\JEStates">
+      <UniqueIdentifier>{ff9017e8-c9fb-4f89-8ec5-4212877d46c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEFrameTimer">
+      <UniqueIdentifier>{8c3d54cb-4d77-457d-be63-c496ddcd4a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEGraphics\New">
+      <UniqueIdentifier>{a38afad5-e971-4c26-9e37-03de43d995b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEState\JEBuilder">
+      <UniqueIdentifier>{2d7a52fe-9c25-4ac6-ba69-5ed988b8faef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEObject\JEObject">
+      <UniqueIdentifier>{01ce6e2f-f1c5-44ae-a68f-d9082b75d86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JETileMapManager">
+      <UniqueIdentifier>{6f2bb01d-372c-4e51-a9c1-6ca9d00638c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEHUD">
+      <UniqueIdentifier>{3b7eda11-90f9-422c-8505-fee834377ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEHUD\Shop">
+      <UniqueIdentifier>{3d1bdc75-e6c0-47b4-9df7-06d5ce658793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEHUD\Number">
+      <UniqueIdentifier>{6cf2a312-311e-4a7e-92ee-04d5fae65223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEHUD\Option">
+      <UniqueIdentifier>{9e48b778-7c2f-4507-9c43-336ff7d0e4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEObject\JECharacter">
+      <UniqueIdentifier>{a574ff78-fdbd-4224-b95e-ef89ee161126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEObject\JECharacter\JEParts">
+      <UniqueIdentifier>{e8d870cc-8860-4ba8-adcd-5e1c26b38fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DayAndNight">
+      <UniqueIdentifier>{435a7a60-5952-4bd2-a31b-5a39b474cd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEObject\JEObject\Resource">
+      <UniqueIdentifier>{e9e75eab-ef36-442b-b4b2-4dce08c72047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEAnimationSystem">
+      <UniqueIdentifier>{12fa2983-d872-4069-8077-753424a48d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEHUD\Resource gauge">
+      <UniqueIdentifier>{ff01f0db-53cf-4a12-8e6d-2a437f4919c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{0fe0287b-a133-49ab-a6a8-3bcca295e6c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Adaptation.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

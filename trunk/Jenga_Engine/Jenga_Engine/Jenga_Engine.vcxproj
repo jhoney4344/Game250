@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{53B2966D-4934-4BA1-8415-A68291F63178}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Jenga_Engine</RootNamespace>
+    <ProjectName>Adaptation</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Windows\api\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Windows\api\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>C:\Users\Student\Desktop\Team Soju DP\trunk\Jenga_Engine\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Student\Desktop\Team Soju DP\trunk\Jenga_Engine\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;GLU32.LIB;OPENGL32.LIB;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Student\Desktop\Team Soju DP\trunk\Jenga_Engine\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;GLU32.LIB;OPENGL32.LIB;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Student\Desktop\Team Soju DP\trunk\Jenga_Engine\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="JEAniSystem.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="JEBillboardingShader.cpp" />
+    <ClCompile Include="JECharacterManager.cpp" />
+    <ClCompile Include="JECharacter.cpp" />
+    <ClCompile Include="JEDayAndNight.cpp" />
+    <ClCompile Include="JEBuilder.cpp" />
+    <ClCompile Include="JEApplication.cpp" />
+    <ClCompile Include="JECamera.cpp" />
+    <ClCompile Include="JECollisionManager.cpp" />
+    <ClCompile Include="JEDebug.cpp" />
+    <ClCompile Include="JEGraphicsNew.cpp" />
+    <ClCompile Include="JEInput.cpp" />
+    <ClCompile Include="JELighting.cpp" />
+    <ClCompile Include="JELoadTextureNew.cpp" />
+    <ClCompile Include="JEMath.cpp" />
+    <ClCompile Include="JENumber.cpp" />
+    <ClCompile Include="JEObjectManager.cpp" />
+    <ClCompile Include="JEObjects.cpp" />
+    <ClCompile Include="JEObjectShader.cpp" />
+    <ClCompile Include="JEOGLMathHelper.cpp" />
+    <ClCompile Include="JEOldParticle.cpp" />
+    <ClCompile Include="JEOptionMenu.cpp" />
+    <ClCompile Include="JEPad.cpp" />
+    <ClCompile Include="JEParticle.cpp" />
+    <ClCompile Include="JEParticleShader.cpp" />
+    <ClCompile Include="JEParts.cpp" />
+    <ClCompile Include="JEPipeLine.cpp" />
+    <ClCompile Include="JERandomTexture.cpp" />
+    <ClCompile Include="JEResourceGauge.cpp" />
+    <ClCompile Include="JEShader.cpp" />
+    <ClCompile Include="JEShop.cpp" />
+    <ClCompile Include="JESpecPart.cpp" />
+    <ClCompile Include="JEStateFactory.cpp" />
+    <ClCompile Include="JEStateManager.cpp" />
+    <ClCompile Include="JEFrameTimer.cpp" />
+    <ClCompile Include="JESound.cpp" />
+    <ClCompile Include="JETileMap.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="JEResource.cpp" />
+    <ClCompile Include="State_OpenWorld.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JEAniType.h" />
+    <ClInclude Include="JEAniSystem.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="JEBillboardingShader.h" />
+    <ClInclude Include="JECharacterManager.h" />
+    <ClInclude Include="JECharacter.h" />
+    <ClInclude Include="JECharacterType.h" />
+    <ClInclude Include="JEDayAndNight.h" />
+    <ClInclude Include="JEBuilder.h" />
+    <ClInclude Include="JECamera.h" />
+    <ClInclude Include="JECollisionManager.h" />
+    <ClInclude Include="JEDebug.h" />
+    <ClInclude Include="JEApplication.h" />
+    <ClInclude Include="JEGraphicsNew.h" />
+    <ClInclude Include="JEHUD.h" />
+    <ClInclude Include="JEInput.h" />
+    <ClInclude Include="JELighting.h" />
+    <ClInclude Include="JELoadTextureNew.h" />
+    <ClInclude Include="JEMath.h" />
+    <ClInclude Include="JEObjectManager.h" />
+    <ClInclude Include="JEObjectShader.h" />
+    <ClInclude Include="JEObjectTypes.h" />
+    <ClInclude Include="JEOGLMathHelper.h" />
+    <ClInclude Include="JEOldParticle.h" />
+    <ClInclude Include="JEOptionMenu.h" />
+    <ClInclude Include="JEBasePart.h" />
+    <ClInclude Include="JEPad.h" />
+    <ClInclude Include="JEParticle.h" />
+    <ClInclude Include="JEParticleShader.h" />
+    <ClInclude Include="JEParts.h" />
+    <ClInclude Include="JEPipeLine.h" />
+    <ClInclude Include="JERandomTexture.h" />
+    <ClInclude Include="JEResourceGauge.h" />
+    <ClInclude Include="JEShader.h" />
+    <ClInclude Include="JEShop.h" />
+    <ClInclude Include="JESpecPart.h" />
+    <ClInclude Include="JEStateFactory.h" />
+    <ClInclude Include="JEStateManager.h" />
+    <ClInclude Include="JEFrameTimer.h" />
+    <ClInclude Include="JEStates.h" />
+    <ClInclude Include="JEObjects.h" />
+    <ClInclude Include="JEStateTypes.h" />
+    <ClInclude Include="JESTL.h" />
+    <ClInclude Include="JESound.h" />
+    <ClInclude Include="JEGameData.h" />
+    <ClInclude Include="JETileMap.h" />
+    <ClInclude Include="JEResource.h" />
+    <ClInclude Include="JETileMapStructs.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Adaptation.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
