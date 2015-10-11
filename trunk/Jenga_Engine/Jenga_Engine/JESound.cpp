@@ -157,91 +157,91 @@ void SoundManager::Play(const std::string& name)
 	{
 		if (name == "main")
 		{
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Menu], FALSE, &pChannel[S_Menu]));
+			ErrCheck(pSystem->playSound( pSound[S_Menu], 0, FALSE, &pChannel[S_Menu]));
 		}
 
 		else if (name == "bgmday")
 		{
 
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_BGMDay], FALSE, &pChannel[S_BGMDay]));
+			ErrCheck(pSystem->playSound( pSound[S_BGMDay], 0, FALSE, &pChannel[S_BGMDay]));
 		}
 
 		else if (name == "bgmnight")
 		{
 
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_BGMNight], FALSE, &pChannel[S_BGMNight]));
+			ErrCheck(pSystem->playSound(pSound[S_BGMNight], 0, FALSE, &pChannel[S_BGMNight]));
 		}
 	}
 	if (!gd.muteEFT)
 	{
 		if (name == "morning")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Morning], FALSE, &pChannel[S_Morning]));
+			ErrCheck(pSystem->playSound( pSound[S_Morning], 0, FALSE, &pChannel[S_Morning]));
 
 		else if (name == "night")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Night], FALSE, &pChannel[S_Night]));
+			ErrCheck(pSystem->playSound( pSound[S_Night], 0, FALSE, &pChannel[S_Night]));
 
 		else if (name == "jump1")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Jump1], FALSE, &pChannel[S_Jump1]));
+			ErrCheck(pSystem->playSound( pSound[S_Jump1], 0, FALSE, &pChannel[S_Jump1]));
 
 		else if (name == "jump2")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Jump2], FALSE, &pChannel[S_Jump2]));
+			ErrCheck(pSystem->playSound( pSound[S_Jump2], 0, FALSE, &pChannel[S_Jump2]));
 
 		else if (name == "cat")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Cat], FALSE, &pChannel[S_Cat]));
+			ErrCheck(pSystem->playSound( pSound[S_Cat], 0, FALSE, &pChannel[S_Cat]));
 
 		else if (name == "punch")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Punch], FALSE, &pChannel[S_Punch]));
+			ErrCheck(pSystem->playSound( pSound[S_Punch], 0, FALSE, &pChannel[S_Punch]));
 
 		else if (name == "enepunch")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_EnePunch], FALSE, &pChannel[S_EnePunch]));
+			ErrCheck(pSystem->playSound( pSound[S_EnePunch], 0, FALSE, &pChannel[S_EnePunch]));
 
 		else if (name == "powerpunch")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_PowerPunch], FALSE, &pChannel[S_PowerPunch]));
+			ErrCheck(pSystem->playSound( pSound[S_PowerPunch], 0, FALSE, &pChannel[S_PowerPunch]));
 
 		else if (name == "click")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Pop], FALSE, &pChannel[S_Pop]));
+			ErrCheck(pSystem->playSound( pSound[S_Pop], 0, FALSE, &pChannel[S_Pop]));
 
 		else if (name == "acq")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Eat], FALSE, &pChannel[S_Eat]));
+			ErrCheck(pSystem->playSound( pSound[S_Eat], 0, FALSE, &pChannel[S_Eat]));
 
 		else if (name == "shop")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Shop], FALSE, &pChannel[S_Shop]));
+			ErrCheck(pSystem->playSound( pSound[S_Shop], 0, FALSE, &pChannel[S_Shop]));
 
 		else if (name == "mineral")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Mineral], FALSE, &pChannel[S_Mineral]));
+			ErrCheck(pSystem->playSound( pSound[S_Mineral], 0, FALSE, &pChannel[S_Mineral]));
 
 		else if (name == "grb")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Grb], FALSE, &pChannel[S_Grb]));
+			ErrCheck(pSystem->playSound( pSound[S_Grb], 0, FALSE, &pChannel[S_Grb]));
 
 		else if (name == "shovel")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Shovel], FALSE, &pChannel[S_Shovel]));
+			ErrCheck(pSystem->playSound( pSound[S_Shovel], 0, FALSE, &pChannel[S_Shovel]));
 
 		else if (name == "dirt")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Dirt], FALSE, &pChannel[S_Dirt]));
+			ErrCheck(pSystem->playSound( pSound[S_Dirt], 0, FALSE, &pChannel[S_Dirt]));
 
 		else if (name == "tick")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Tick], FALSE, &pChannel[S_Tick]));
+			ErrCheck(pSystem->playSound( pSound[S_Tick], 0, FALSE, &pChannel[S_Tick]));
 
 		else if (name == "wood")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Wood], FALSE, &pChannel[S_Wood]));
+			ErrCheck(pSystem->playSound( pSound[S_Wood], 0, FALSE, &pChannel[S_Wood]));
 
 		else if (name == "woodcut")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_WoodCut], FALSE, &pChannel[S_WoodCut]));
+			ErrCheck(pSystem->playSound( pSound[S_WoodCut], 0, FALSE, &pChannel[S_WoodCut]));
 
 		else if (name == "denied")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Denied], FALSE, &pChannel[S_Denied]));
+			ErrCheck(pSystem->playSound( pSound[S_Denied], 0, FALSE, &pChannel[S_Denied]));
 
 		else if (name == "teleport")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Teleport], FALSE, &pChannel[S_Teleport]));
+			ErrCheck(pSystem->playSound( pSound[S_Teleport], 0, FALSE, &pChannel[S_Teleport]));
 
 		else if (name == "gameover")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Gameover], FALSE, &pChannel[S_Gameover]));
+			ErrCheck(pSystem->playSound( pSound[S_Gameover], 0, FALSE, &pChannel[S_Gameover]));
 
 		else if (name == "drop")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Drop], FALSE, &pChannel[S_Drop]));
+			ErrCheck(pSystem->playSound( pSound[S_Drop], 0, FALSE, &pChannel[S_Drop]));
 
 		else if (name == "bomb")
-			ErrCheck(pSystem->playSound(FMOD_CHANNEL_FREE, pSound[S_Bomb], FALSE, &pChannel[S_Bomb]));
+			ErrCheck(pSystem->playSound( pSound[S_Bomb], 0, FALSE, &pChannel[S_Bomb]));
 	}
 }
 

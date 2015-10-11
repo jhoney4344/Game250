@@ -269,7 +269,7 @@ namespace JE{
 		padOrthoMouse = padCursorPosition;
 		if (gd.pause)
 			return shopOn;
-		if (g_Input->IsTriggered(JE_ESCAPE) || My
+		if (g_Input->IsTriggered(JE_ESCAPE) || MyGamepad
 			->GetButtonDown(XButtons.Back))
 		{
 			shopOn = false;
